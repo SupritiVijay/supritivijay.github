@@ -92,13 +92,16 @@
                                 <div class="bigcol">
                                     <div class="text-start">
 
-                                    I am a Master's student in Language Technologies at <a href="https://www.lti.cs.cmu.edu"> Carnegie Mellon University</a> fortunately advised by <a href="http://www.phontron.com/">Prof. Graham Neubig</a> and researching multilingual NLP in <a href="http://www.cs.cmu.edu/~neulab/"> NeuLab</a>. I received my Bachelor's degree in Mathematics & Computer Science with highest distinction from <a href="https://www.polytechnique.edu/en">École Polytechnique</a> where I defended my thesis on <a href="https://github.com/kayoyin/transformer-slt">Sign Language Translation</a>.
+                                    I am a Master's student in Language Technologies at <a href="https://www.lti.cs.cmu.edu"> Carnegie Mellon University</a> fortunately advised by <a href="http://www.phontron.com/">Prof. Graham Neubig</a> and researching multilingual NLP in <a href="http://www.cs.cmu.edu/~neulab/"> NeuLab</a>. I received my Bachelor's degree in Mathematics & Computer Science from <a href="https://www.polytechnique.edu/en">École Polytechnique</a> where I defended my thesis on <a href="https://github.com/kayoyin/transformer-slt">Sign Language Translation</a>.
                                 <br><br>
                                  I come from <a href="https://youtu.be/azpuIIz3mCU">Akashi, Japan</a> and grew up speaking 4 languages in <a href="https://youtu.be/_r4sBv4m0aI">Paris, France</a>. For as long as I can remember, I've had a passion for <a href="assets/img/animath.png">mathematics</a>. I actually learned to do multiplications and divisions before I learned to read!
                                  <a href="media.html">Music</a> is also a life-long passion of mine, and also what introduced me to AI: my worlds collided when I used LSTMs to generate music for my second-year programming <a href="http://github.com/kayoyin/prodigy">project</a>. When I discovered natural language processing, everything - my love of languages, numbers and codes - seemed to have fallen into place :)
                                  <br><br>
                                  I will be applying to PhD programs in Fall 2021!
                                  <br><br><br>
+                                 <li>
+                                  <b>2021-08-26</b> Super happy to have 2 papers accepted to <a href="https://2021.emnlp.org/">EMNLP 2021</a>!
+                              </li>
                                  <li>
                                   <b>2021-07-25</b> 1 paper accepted to the <a href="https://sites.google.com/tilburguniversity.edu/at4svl2021/home?authuser=0">AT4SSL workshop</a> at MT Summit 2021!
                                  </li>
@@ -170,7 +173,73 @@
                  <ul class="clist">
 
                   <li> 
-                    <a href="https://arxiv.org/abs/2105.07476"> Data Augmentation for Sign Language Gloss Translation</a>
+                    Signed Coreference Resolution
+                    <br>
+                    <u>Kayo Yin</u>, Kenneth DeHaan and Malihe Alikhani.
+                      <br>
+                      <i>2021 Conference on Empirical Methods in Natural Language Processing (EMNLP). November 2021.</i>
+                      
+                      <br><button type="button" class="badge badge-abs" href="javascript:void(0)" onclick="show('abs4')">
+                        Abstract
+                      </button>
+                        <button type="button" class="badge badge-bibtex" href="javascript:void(0)" onclick="show('bib4')">
+                        BibTeX
+                      </button>
+        
+                      <div id="abs4"  class="popup-abs">
+                          <br>
+                        &nbsp;&nbsp; Coreference resolution is key to many natural language processing tasks and yet has only been explored for spoken languages.
+                        In signed languages, space is primarily used to establish reference. Solving coreference resolution for signed languages would not only enable higher-level Sign Language Processing systems, but also enhance our understanding of language in different modalities and of situated references, which are key problems in studying grounded language.
+                        In this paper, we: (1) introduce Signed Coreference Resolution, a new challenge for coreference modeling and Sign Language Processing; (2) collect an annotated corpus of German Sign Language with gold labels for coreference together with an annotation software for the task; (3) explore features of hand gesture, iconicity, and spatial situated properties and move forward to propose a set of linguistically informed heuristics and unsupervised models for the task; (4) put forward several proposals about ways to address the complexities of this challenge effectively. Finally, we invite the NLP community to collaborate with signing communities and direct efforts towards SCR to close this gap.
+                      <div id="bib4"  class="popup">
+                         <br>
+                         @inproceedings{yin21emnlp,<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp; title = "Signed Coreference Resolution",<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;author = "Yin, Kayo  and
+                          DeHaan, Kenneth and
+                          Alikhani, Malihe",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;month = nov,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;year = "2021",<br>
+                      }<br><br>
+                      </div><br><br>
+
+                  <li> 
+                    When is Wall a Pared and when a Muro?: Extracting Rules Governing Lexical Selection
+                    <br>
+                    Aditi Chaudhary, <u>Kayo Yin</u>, Antonios Anastasopoulos and Graham Neubig.
+                      <br>
+                      <i>2021 Conference on Empirical Methods in Natural Language Processing (EMNLP). November 2021.</i>
+                      
+                      <br><button type="button" class="badge badge-abs" href="javascript:void(0)" onclick="show('abs4')">
+                        Abstract
+                      </button>
+                        <button type="button" class="badge badge-bibtex" href="javascript:void(0)" onclick="show('bib4')">
+                        BibTeX
+                      </button>
+        
+                      <div id="abs4"  class="popup-abs">
+                          <br>
+                        &nbsp;&nbsp; Learning fine-grained distinctions between vocabulary items is a key challenge in learning a new language. For example, the noun ``wall'' has different lexical manifestations in Spanish --  ``pared'' refers to an indoor wall while ``muro'' refers to an outside wall.
+                        However, this variety of lexical distinction may not be obvious to non-native learners unless the distinction is explained in such a way.
+                        In this work, we present a method for automatically identifying fine-grained lexical distinctions, and extracting rules explaining these distinctions in a human- and machine-readable format. We confirm the quality of these extracted rules in a language learning setup for two languages, Spanish and Greek,  where we use the rules to teach non-native speakers when to translate a given ambiguous word into its different possible translations <br><br></div>
+                      
+                      <div id="bib4"  class="popup">
+                         <br>
+                         @inproceedings{chaudhary21emnlp,<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp; title = "When is Wall a Pared and when a Muro?: Extracting Rules Governing Lexical Selection",<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;author = "Chaudhary, Aditi  and
+                            Yin, Kayo  and
+                            Anastasopoulos, Antonios and
+                            Neubig, Graham",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;month = nov,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;year = "2021",<br>
+                      }<br><br>
+                      </div><br><br>
+
+                  <li> 
+                    <a href="https://aclanthology.org/2021.mtsummit-at4ssl.1/"> Data Augmentation for Sign Language Gloss Translation</a>
                     <br>
                     Amit Moryossef*, <u>Kayo Yin*</u>,  Graham Neubig and Yoav Goldberg.
                       <br>
@@ -179,7 +248,7 @@
                       <br><button type="button" class="badge badge-abs" href="javascript:void(0)" onclick="show('abs4')">
                         Abstract
                       </button>
-                      <a href="https://arxiv.org/pdf/2105.07476.pdf"><span class="badge badge-pdf"> PDF </span></a>
+                      <a href="https://aclanthology.org/2021.mtsummit-at4ssl.1.pdf"><span class="badge badge-pdf"> PDF </span></a>
                         <button type="button" class="badge badge-bibtex" href="javascript:void(0)" onclick="show('bib4')">
                         BibTeX
                       </button>
@@ -191,13 +260,21 @@
                       
                       <div id="bib4"  class="popup">
                          <br>
-                         @article{moryossef2021data, <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;title={{Data Augmentation for Sign Language Gloss Translation}},<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;author={Moryossef, Amit and Yin, Kayo and Neubig, Graham and Goldberg, Yoav},<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;journal={First International Workshop on Automatic Translation for Sign and Spoken Languages.},<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;year={2021},<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;url      = {https://arxiv.org/abs/2105.07476},<br>
-                          }<br><br>
+                         @inproceedings{moryossef-etal-2021-data,<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp; title = "Data Augmentation for Sign Language Gloss Translation",<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;author = "Moryossef, Amit  and
+                            Yin, Kayo  and
+                            Neubig, Graham  and
+                            Goldberg, Yoav",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;booktitle = "Proceedings of the 1st International Workshop on Automatic Translation for Signed and Spoken Languages (AT4SSL)",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;month = aug,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;year = "2021",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;address = "Virtual",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;publisher = "Association for Machine Translation in the Americas",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;url = "https://aclanthology.org/2021.mtsummit-at4ssl.1",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;pages = "1--11",<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;abstract = "Sign language translation (SLT) is often decomposed into video-to-gloss recognition and gloss to-text translation, where a gloss is a sequence of transcribed spoken-language words in the order in which they are signed. We focus here on gloss-to-text translation, which we treat as a low-resource neural machine translation (NMT) problem. However, unlike traditional low resource NMT, gloss-to-text translation differs because gloss-text pairs often have a higher lexical overlap and lower syntactic overlap than pairs of spoken languages. We exploit this lexical overlap and handle syntactic divergence by proposing two rule-based heuristics that generate pseudo-parallel gloss-text pairs from monolingual spoken language text. By pre-training on this synthetic data, we improve translation from American Sign Language (ASL) to English and German Sign Language (DGS) to German by up to 3.14 and 2.20 BLEU, respectively.",
+                      }<br><br>
                       </div><br><br>
 
 
@@ -482,7 +559,7 @@
         </div>
             </section>
             <br><br><br>
-            <i> <p style="color:#808080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last updated July 26 2021</p> </i>
+            <i> <p style="color:#808080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last updated August 26 2021</p> </i>
 
         
         <!-- Bootstrap core JS-->
