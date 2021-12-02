@@ -1,5 +1,7 @@
 # Kayo's Personal Page
 
-Built on [this template](https://startbootstrap.com/theme/grayscale/) with lots of copy pasting from stack overflow.
+Built on [this theme](https://startbootstrap.com/theme/grayscale/).
 
-Please ask for my permission to use this code! 
+Copyright (c) Kayo Yin 2021. All Rights Reserved.
+
+Please do not copy or distribute without my permission!
