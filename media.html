@@ -13,7 +13,7 @@ Do not copy or distribute without permission of the author. -->
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Kayo Yin</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/totoro.gif" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -37,9 +37,10 @@ Do not copy or distribute without permission of the author. -->
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#perf" target="_self">Performances</a></li>
                         <li class="nav-item"><a class="nav-link" href="#vlogs" target="_self">Vlogs</a></li>
+                        <li class="nav-link disabled">|</li>
+                        <li class="nav-item"><a class="nav-link" href="index.html" target="_self">Home</a></li>
                     </ul>
                 </div>
             </div>
@@ -141,6 +142,29 @@ Do not copy or distribute without permission of the author. -->
         <br><br><br><br><br><br>
         </div>
         </section>
+
+        <audio id="audio" src="assets/harp.mp3"></audio>
+        <script>
+          Array.prototype.random = function () {
+return this[Math.floor((Math.random()*this.length))];
+}
+        let audio = document.getElementById("audio");
+        audio.volume = 0.3;
+          var start = [3, 775, 1008, 1240, 1917].random()
+          audio.currentTime = start;
+          function play() {
+          //   var starttimes = [
+          //   3, 210, 488, 760, 998, 1229, 1486, 1756, 1910, 2180
+          // ];
+          //   var start = _.sample(starttimes);
+            return audio.paused ? audio.play() : audio.pause();
+          }
+        </script>
+
+     
+      <div class="imglink">
+        <div style="position:fixed; bottom:20px; right:10px;"><img src="assets/totorobottle.gif" height="100%" onclick="play()" title="♪"></div>
+      </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

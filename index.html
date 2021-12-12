@@ -39,7 +39,7 @@ Do not copy or distribute without permission of the author. -->
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Kayo Yin</a>
+                <a class="navbar-brand" href="#page-top" target="_self">Kayo Yin</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -50,19 +50,21 @@ Do not copy or distribute without permission of the author. -->
                         <li class="nav-item"><a class="nav-link" href="#research" target="_self">Research</a></li>
                         <li class="nav-item"><a class="nav-link" href="#pubs" target="_self">Publications</a></li>
                         <li class="nav-item"><a class="nav-link" href="#talks" target="_self">Talks</a></li>
+                        <li class="nav-link disabled">|</li>
                         <li class="nav-item"><a class="nav-link" href="media.html" target="_self">Not Research</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="d-flex justify-content-center">
+        <div class="row">
+          <div class="smallcol">
             <section class="about-section text-center" id="about">
-            <div class="container d-flex align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    
                     <div class="text-center">
-                        <div class="row">
-                            <div class="smallcol"><script type="text/javascript">
+                       
+                           <script type="text/javascript">
                                 ImageArray = new Array();
                                 ImageArray[0] = 'assets/img/flute.png';
                                 ImageArray[1] = 'assets/img/erhu.jpg';
@@ -98,9 +100,10 @@ Do not copy or distribute without permission of the author. -->
                                               
                                      </ul>
                             
-                            </div>
+                            </div></section></div>
                            
                                 <div class="bigcol">
+                                  <section class="about-section" id="about">
                                     <div class="text-start">
 
                                     I am a Master's student in Language Technologies at <a href="https://www.lti.cs.cmu.edu"> Carnegie Mellon University</a> fortunately advised by <a href="http://www.phontron.com/">Prof. Graham Neubig</a> and researching multilingual NLP in <a href="http://www.cs.cmu.edu/~neulab/"> NeuLab</a>. I received my Bachelor's degree in Mathematics & Computer Science from <a href="https://www.polytechnique.edu/en">École Polytechnique</a> where I defended my thesis on <a href="https://github.com/kayoyin/transformer-slt">Sign Language Translation</a>.
@@ -154,16 +157,12 @@ Do not copy or distribute without permission of the author. -->
                                 <b>2020-07-25</b>  My undergraduate paper has been accepted to the <a href="https://slrtp.com/">SLRTP workshop</a> at ECCV'20!
                              </li>
                                  </div>
-                                </div>
-                          </div>
-                        
-             </div>
                    
-                        </div>
-            </div></section>
-
+                     
+            </section>
+  
             <section class="about-section" id="research">
-                <div class="container ">
+                <div class="text-start ">
                     
 
                 <h6 class="display-6">Research</h6>
@@ -177,16 +176,12 @@ Do not copy or distribute without permission of the author. -->
                  <li><b>Sign Language Processing</b>: I am interested in modeling signed languages from a linguistic perspective and extending existing language technologies to signed languages.
                   I have argued the importance for the NLP community to include signed languages, both socially and scientifically, and how to get involved (<a href="https://aclanthology.org/2021.acl-long.570/">ACL'21</a>), I researched how to translate a signed language into a spoken language (<a href="https://slrtp.com/papers/extended_abstracts/SLRTP.EA.12.009.paper.pdf">ECCV'20</a>, <a href="https://www.aclweb.org/anthology/2020.coling-main.525/">COLING'20</a>),
                   and how to perform data augmentation for Sign Language Translation (<a href="https://arxiv.org/abs/2105.07476">MTSummit21</a>). </li>
-                <br><br>
-
+                <br> <br>
                 Please do not hesitate to reach out if you'd like to chat or collaborate! I am generally responsive to emails and Twitter messages, I am not as responsive as I'd like to be on LinkedIn.
-               </div></div>
-
-
-            </section>
-
+               </div>
+            </section> 
             <section class="about-section" id="pubs">
-                <div class="container">
+                <div class="text-start">
 
                 <h3 class="display-6">Publications</h3>
                 <hr>
@@ -554,11 +549,11 @@ Do not copy or distribute without permission of the author. -->
                         &nbsp;&nbsp;&nbsp;&nbsp;volume={4},<br>
                         &nbsp;&nbsp;&nbsp;&nbsp;year={2020}<br>
                       }
-                  </div> 
-            
-                </ul>
-
+                    </ul>
+                    </section>
+        
               <section id="talks" class="mt-5">
+                <div class="text-start">
                 <h3 class="display-6">Talks</h3>
                 <hr>
 
@@ -658,13 +653,39 @@ Do not copy or distribute without permission of the author. -->
          </ul>
 
         </div>
+      </div>
+                        
+    </div>
+          
             </section>
+          </div></div>
             <br>
             <p style="color:#808080; font-size:16px;" align="center" >Copyright © Kayo Yin 2021
               <br> Last updated November 7 2021</p>
 
-        
-        <!-- Bootstrap core JS-->
+              <audio id="audio" src="assets/harp.mp3"></audio>
+              <script>
+                Array.prototype.random = function () {
+  return this[Math.floor((Math.random()*this.length))];
+}
+              let audio = document.getElementById("audio");
+              audio.volume = 0.3;
+                var start = [3, 775, 1008, 1240, 1917].random()
+                audio.currentTime = start;
+                function play() {
+                //   var starttimes = [
+                //   3, 210, 488, 760, 998, 1229, 1486, 1756, 1910, 2180
+                // ];
+                //   var start = _.sample(starttimes);
+                  return audio.paused ? audio.play() : audio.pause();
+                }
+              </script>
+
+           
+            <div class="imglink">
+              <div style="position:fixed; bottom:20px; right:10px;"><img src="assets/totorobottle.gif" height="100%" onclick="play()" title="♪"></div>
+            </div>
+              <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
