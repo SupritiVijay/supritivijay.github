@@ -107,13 +107,14 @@ Do not copy or distribute without permission of the author. -->
                                   <section class="about-section" id="about">
                                     <div class="text-start">
 
-                                    I am a Master's student in Language Technologies at <a href="https://www.lti.cs.cmu.edu"> Carnegie Mellon University</a> fortunately advised by <a href="http://www.phontron.com/">Prof. Graham Neubig</a> and researching multilingual NLP in <a href="http://www.cs.cmu.edu/~neulab/"> NeuLab</a>. I received my Bachelor's degree in Mathematics & Computer Science from <a href="https://www.polytechnique.edu/en">École Polytechnique</a> where I defended my thesis on <a href="https://github.com/kayoyin/transformer-slt">Sign Language Translation</a>.
+                                    I am a Master's student in Language Technologies at <a href="https://www.lti.cs.cmu.edu"> Carnegie Mellon University</a> working with <a href="http://www.phontron.com/">Prof. Graham Neubig</a> and I am a member of <a href="http://www.cs.cmu.edu/~neulab/"> NeuLab</a>. I received my Bachelor's degree in Mathematics & Computer Science from <a href="https://www.polytechnique.edu/en">École Polytechnique</a> where I defended my thesis on <a href="https://github.com/kayoyin/transformer-slt">Sign Language Translation</a>.
+                                    I am fortunate to be supported by the <a href="https://www.siebelscholars.com/">Siebel Scholars Program</a>.
                                 <br><br>
-                                 I come from <a href="https://youtu.be/azpuIIz3mCU">Akashi, Japan</a> and grew up speaking 4 languages in <a href="https://youtu.be/_r4sBv4m0aI">Paris, France</a>. For as long as I can remember, I've had a passion for <a href="assets/img/animath.png">mathematics</a>. I actually learned to do multiplications and divisions before I learned to read!
-                                 <a href="media.html">Music</a> is also a life-long passion of mine, and also what introduced me to AI: my worlds collided when I used LSTMs to generate music for my second-year programming <a href="http://github.com/kayoyin/prodigy">project</a>. When I discovered natural language processing, everything - my love of languages, numbers and codes - seemed to have fallen into place :)
+                               My goal is to use natural language processing to break down communication barriers between people and give all language users access to technology. 
+                               Currently, my <a href="#research" target="_self">research</a> focuses on context-aware neural machine translation, model interpretability, and sign language processing.
+                               <br><br>
+                               I come from <a href=“https://youtu.be/azpuIIz3mCU”>Akashi, Japan</a> and grew up speaking 4 languages in <a href=“https://youtu.be/_r4sBv4m0aI”>Paris, France</a>. Outside research, I enjoy playing <a href="media.html#perf">multiple instruments</a> (my nickname in college was <a href="https://gargantua.polytechnique.fr/siatel-web/app/linkto/mICYYYTGHYK#page=20t">Femme-Orchestre</a>), martial arts, <a href="hiking.html">hiking</a>, being a Buddhist, <a href="https://youtube.com/playlist?list=PLQRDjZrFKXcpL2j5jekIgpju9FPFo08tm">solo traveling</a>, and watching cute dog videos. 
                                  <br><br>
-                                 I will be applying to PhD programs in Fall 2021!
-                                 <br><br><br>
                                  <li>
                                   <b>2021-11-05</b> Gave an invited talk at DeepMind on <a href="assets/slides/deepmind21.pdf">Natural Language Processing for Signed Languages</a> <br>
                                  </li>
@@ -169,14 +170,16 @@ Do not copy or distribute without permission of the author. -->
                 <h6 class="display-6">Research</h6>
                 <hr>
                 My long-term research goal is to break down communication barriers between people, and between computers and people using Natural Language Processing. I believe that by improving how computers understand and respond to different natural languages, more people can benefit from technology using their preferred language.
+                <br>I like to think about how linguistic priors can enhance model performance, and in turn, what computational models and data can teach us about how languages work.
                 <br> <br>
                 Currently, I am working on challenges in multilingual NLP such as: <br> <br>
                  <li><b>Context-aware Machine Translation</b>: I am interested in when context, either on an intra-sentential (within the current sentence), inter-sentential (across multiple sentences), or extra-linguistic (e.g. social, temporal, cultural) level, is required during translation, and how to model these features in machine translation. 
-                  My works examine how much context-aware models are actually using context (<a href="https://aclanthology.org/2021.acl-long.505/">ACL'21</a>), whether models are using the type of context we expect them to (<a href="https://aclanthology.org/2021.acl-long.65/">ACL'21</a>), and how to encourage models to use more/better context. </li> <br>
-                  
-                 <li><b>Sign Language Processing</b>: I am interested in modeling signed languages from a linguistic perspective and extending existing language technologies to signed languages.
+                  My works examine when translation requires context and how well models perform on these translations (<a href="https://arxiv.org/abs/2109.07446">arxiv'21</a>), how much context-aware models are actually using context (<a href="https://aclanthology.org/2021.acl-long.505/">ACL'21</a>), whether models are using the type of context we expect them to (<a href="https://aclanthology.org/2021.acl-long.65/">ACL'21</a>), and how to encourage models to use more/better context. </li> <br>
+                <li><b>Model Interpretability</b>: I am interested in understanding how current NLP models use contextual information to make decisions during language generation, and using this information to guide models to process context more efficiently. I am also interested in how neural networks process language on a fundamental level and how machine intelligence compares with human cognition.</li>
+                <br> 
+                <li><b>Sign Language Processing</b>: I am interested in modeling signed languages from a linguistic perspective and extending existing language technologies to signed languages.
                   I have argued the importance for the NLP community to include signed languages, both socially and scientifically, and how to get involved (<a href="https://aclanthology.org/2021.acl-long.570/">ACL'21</a>), I researched how to translate a signed language into a spoken language (<a href="https://slrtp.com/papers/extended_abstracts/SLRTP.EA.12.009.paper.pdf">ECCV'20</a>, <a href="https://www.aclweb.org/anthology/2020.coling-main.525/">COLING'20</a>),
-                  and how to perform data augmentation for Sign Language Translation (<a href="https://arxiv.org/abs/2105.07476">MTSummit21</a>). </li>
+               how to perform data augmentation for Sign Language Translation (<a href="https://aclanthology.org/2021.mtsummit-at4ssl.1/">MTSummit21</a>), and how to perform coreference resolution of pronominal pointing signs (<a href="https://aclanthology.org/2021.emnlp-main.405/">EMNLP'21</a>). </li>
                 <br> <br>
                 Please do not hesitate to reach out if you'd like to chat or collaborate! I am generally responsive to emails and Twitter messages, I am not as responsive as I'd like to be on LinkedIn.
                </div>
@@ -273,7 +276,7 @@ Do not copy or distribute without permission of the author. -->
                         <br>
                         <b>Kayo Yin*</b>, Patrick Fernandes*, André F. T. Martins and Graham Neubig.
                           <br>
-                          <i>Preprint.</i>
+                          <i>In submission.</i>
                           
                           <br><button type="button" class="badge badge-abs" href="javascript:void(0)" onclick="show('abs9')">
                             Abstract
