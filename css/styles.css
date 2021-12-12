@@ -4253,7 +4253,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link {
   margin-bottom: -1px;
-  background: none;
+  background: rgb(255, 255, 255);
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
