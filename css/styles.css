@@ -2398,7 +2398,7 @@ progress {
 .badge-sp {
   color: #fff;
   background-color: #EDD28F;
-  font-size: 10rem;
+  font-size: 13px;
 }
 .badge-secondary[href]:hover, .badge-secondary[href]:focus {
   color: #fff;
