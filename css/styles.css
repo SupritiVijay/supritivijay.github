@@ -71,7 +71,7 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   border: 0;
   opacity: 0.25;
 }
@@ -264,7 +264,7 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
-  color: rgb(245, 243, 243);
+  color: rgb(245, 245, 245);
   background-color: #212529;
   border-radius: 0.2rem;
 }
@@ -2225,7 +2225,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
@@ -2247,7 +2247,7 @@ progress {
 }
 .form-control:focus {
   color: #212529;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   border-color: #b2d0ce;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
@@ -2545,7 +2545,7 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
@@ -3820,7 +3820,7 @@ textarea.form-control-lg {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -4273,7 +4273,7 @@ textarea.form-control-lg {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #1965c9;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
@@ -4357,19 +4357,19 @@ textarea.form-control-lg {
   list-style: none;
 }
 /* Change nav bar responsive bg color */
-.navbar-nav .nav-link {
+.navbar-nav {
   padding-right: 0.5em;
   padding-left: 0.5em;
-  background-color: rgb(245, 245, 245);
-  border-radius: .25em;
 }
 .navbar-nav .dropdown-menu {
   position: static;
+  background-color: rgb(245, 245, 245);
 }
 
 .navbar-text {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: rgb(245, 245, 245);
 }
 
 .navbar-collapse {
@@ -4651,7 +4651,7 @@ a, u {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -6066,7 +6066,7 @@ a, u {
   line-break: auto;
   font-size: 0.875rem;
   word-wrap: break-word;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -7885,11 +7885,11 @@ a, u {
 }
 
 .bg-white {
-  background-color: rgb(245, 243, 243) !important;
+  background-color: rgb(245, 245, 245) !important;
 }
 
 .bg-body {
-  background-color: rgb(245, 243, 243) !important;
+  background-color: rgb(245, 245, 245) !important;
 }
 
 .bg-transparent {
@@ -11307,7 +11307,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(245, 245, 245);
 }
   /* Change navbar button color */
 #mainNav .navbar-toggler {
@@ -11344,7 +11344,7 @@ body {
   /* Change title */
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgb(245, 243, 243);
+    color: rgb(245, 245, 245);
   }
   #mainNav .nav-link {
     transition: none;
@@ -11359,7 +11359,7 @@ body {
     color: rgb(255, 255, 255);
   }
   #mainNav.navbar-shrink {
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(245, 245, 245);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11529,7 +11529,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 .contact-section .social a:active {
-  color: rgb(245, 243, 243);
+  color: rgb(245, 245, 245);
 }
 
 .footer {
