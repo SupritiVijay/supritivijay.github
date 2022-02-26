@@ -186,7 +186,7 @@ Do not copy or distribute without permission of the author. -->
                 Currently, I am working on challenges in multilingual NLP such as: <br> <br>
                  <li><b>Context-aware Machine Translation</b>: I am interested in when context, either on an intra-sentential (within the current sentence), inter-sentential (across multiple sentences), or extra-linguistic (e.g. social, temporal, cultural) level, is required during translation, and how to model these features in machine translation. 
                   My works examine when translation requires context and how well models perform on these translations (<a href="https://arxiv.org/abs/2109.07446">arxiv'21</a>), how much context-aware models are actually using context (<a href="https://aclanthology.org/2021.acl-long.505/">ACL'21</a>), whether models are using the type of context we expect them to (<a href="https://aclanthology.org/2021.acl-long.65/">ACL'21</a>), and how to encourage models to use more/better context. </li> <br>
-                <li><b>Model Interpretability</b>: I am interested in understanding how current NLP models use contextual information to make decisions during language generation, and using this information to guide models to process context more efficiently. I am also interested in how neural networks process language on a fundamental level and how machine intelligence compares with human cognition.</li>
+                <li><b>Model Interpretability</b>: I am interested in understanding how current NLP models use contextual information to make decisions during language generation (<a href="https://arxiv.org/abs/2202.10419">arxiv'22</a>) and using this information to guide models to process context more efficiently. I am also interested in how neural networks process language on a fundamental level and how machine intelligence compares with human cognition.</li>
                 <br> 
                 <li><b>Sign Language Processing</b>: I am interested in modeling signed languages from a linguistic perspective and extending existing language technologies to signed languages.
                   I have argued the importance for the NLP community to include signed languages, both socially and scientifically, and how to get involved (<a href="https://aclanthology.org/2021.acl-long.570/">ACL'21</a>), I researched how to translate a signed language into a spoken language (<a href="https://slrtp.com/papers/extended_abstracts/SLRTP.EA.12.009.paper.pdf">ECCV'20</a>, <a href="https://www.aclweb.org/anthology/2020.coling-main.525/">COLING'20</a>),
@@ -202,6 +202,42 @@ Do not copy or distribute without permission of the author. -->
                 <hr>
                 <i>* = equal contribution</i>
                 <br><br>
+
+                <h4>2022</h4>
+                <ul class="clist">
+                <li> 
+                  <a href="https://arxiv.org/abs/2202.10419">Interpreting Language Models with Contrastive Explanations </a>
+                  <br>
+                  <b>Kayo Yin</b> and Graham Neubig.
+                    <br>
+                    <i>In submission.</i>
+                    
+                    <br><button type="button" class="badge badge-abs" href="javascript:void(0)" onclick="show('abs10')">
+                      Abstract
+                    </button>
+                    <a href="https://arxiv.org/pdf/2202.10419.pdf"><span class="badge badge-pdf"> PDF </span></a>
+                    <!-- <a href="https://github.com/neulab/contextual-mt"><span class="badge badge-secondary">  Code/Data </span></a> -->
+                      <button type="button" class="badge badge-bibtex" href="javascript:void(0)" onclick="show('bib10')">
+                      BibTeX
+                    </button>
+      
+                    <div id="abs10"  class="popup-abs">
+                      &nbsp;&nbsp; Model interpretability methods are often used to explain NLP model decisions on tasks such as text classification, where the output space is relatively small. However, when applied to language generation, where the output space often consists of tens of thousands of tokens, these methods are unable to provide informative explanations. Language models must consider various features to predict a token, such as its part of speech, number, tense, or semantics. Existing explanation methods conflate evidence for all these features into a single explanation, which is less interpretable for human understanding.
+                      To disentangle the different decisions in language modeling, we focus on explaining language models contrastively: we look for salient input tokens that explain why the model predicted one token instead of another. We demonstrate that contrastive explanations are quantifiably better than non-contrastive explanations in verifying major grammatical phenomena, and that they significantly improve contrastive model simulatability for human observers. We also identify groups of contrastive decisions where the model uses similar evidence, and we are able to characterize what input tokens models use during various language generation decisions.
+                      </div>
+
+                    <div id="bib10"  class="popup">
+                       @article{yin2022interpreting,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; title = "Interpreting Language Models with Contrastive Explanations",<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;author = "Yin, Kayo  and
+                          Neubig, Graham",<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;booktitle = "arXiv preprint arXiv:2202.10419",<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;month = feb,<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;year = "2022",<br>
+                    }
+                    </div><br><br>
+
+                  </ul>
 
                  <h4>2021</h4>     
                  <ul class="clist">
@@ -709,7 +745,7 @@ Do not copy or distribute without permission of the author. -->
               
             <br>
             <p style="color:#808080; font-size:16px;" align="center" >Copyright © Kayo Yin 2021
-              <br> Last updated December 12 2021</p>
+              <br> Last updated February 26 2022</p>
 
               <audio id="audio" src="assets/harp.mp3"></audio>
               <script>
